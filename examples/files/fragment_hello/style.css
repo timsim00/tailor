@@ -1,0 +1,8 @@
+.fragment-hello {
+		padding: 30px;
+		margin: 10px;
+		text-align: center;
+}
+.fragment-hello-initialised {
+		background-color: lightgrey;
+}

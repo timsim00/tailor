@@ -1,0 +1,8 @@
+.fragment-world {
+		padding: 30px;
+		margin: 10px;
+		text-align: center;
+}
+.fragment-world-initialised {
+		background-color: pink;
+}

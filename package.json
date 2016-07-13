@@ -14,7 +14,9 @@
     "lint": "eslint lib/ tests/ src/pipe.js",
     "example": "npm run prepublish && node --harmony example/tailor",
     "benchmark": "node perf/benchmark",
-    "prepublish": "uglifyjs src/pipe.js --mangle --compress --comments -o src/pipe.min.js"
+    "prepublish": "uglifyjs src/pipe.js --mangle --compress --comments -o src/pipe.min.js",
+    "example-files": "npm run prepublish && node --harmony examples/files/tailor",
+    "example-spa": "npm run prepublish && node --harmony examples/spa/tailor"
   },
   "pre-commit": [
     "lint",
